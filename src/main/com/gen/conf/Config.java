@@ -10,7 +10,7 @@ public interface Config {
     /**
      * 项目名称
      */
-    String projectName = "king";
+    String projectName = "hello-api";
 
     /**
      * 数据库名称
@@ -20,7 +20,7 @@ public interface Config {
     /**
      * groupId:
      */
-    String groupId = "com.bm";
+    String groupId = "com.qianmi";
 
     /**
      * parentVersion:
@@ -30,22 +30,22 @@ public interface Config {
     /**
      * moduleVersion:
      */
-    String moduleVersion = "0.1-SNAPSHOT";
+    String moduleVersion = "1.0-SNAPSHOT";
 
     /**
      * 项目路径：项目所在磁盘路径
      */
-    String projectPath = "D:/workspace_idea/king/";
+    String projectPath = "D:/workspace_idea/hello-api/";
 
     /**
      * 项目基本包名:groupId + 项目名
      */
-    String basePackage = "com.bm.king";
+    String basePackage = "com.bm.hello";
 
     /**
      * 异常类名:项目名 + Exception
      */
-    String exceptionName = "KingException";
+    String exceptionName = "HelloException";
 
     /**
      * 生成的接口根uri：所有Controller的访问前缀，不设置或者设成项目名
@@ -56,17 +56,17 @@ public interface Config {
     /**
      * 所有子模块的名称前缀：一般设成项目名
      */
-    String baseModuleName = "king";
+    String baseModuleName = "hello";
 
     /**
      * common模块名称
      */
-    String commonModuleName = baseModuleName + "-common";
+    String commonModuleName = baseModuleName + "-base";
 
     /**
      * dao模块名称
      */
-    String daoModuleName = baseModuleName + "-dao";
+    String daoModuleName = baseModuleName + "-mapper";
 
     /**
      * domain模块名称
@@ -86,7 +86,7 @@ public interface Config {
     /**
      * 入口类类名
      */
-    String webApplicationName = "KingWebApplication";
+    String webApplicationName = "HelloWebApplication";
 
     /**
      * 代码路径
@@ -106,22 +106,22 @@ public interface Config {
     /**
      * BaseXXX.java所在包
      */
-    String baseXXXPackage = basePackage + ".common.base";
+    String baseXXXPackage = basePackage + ".base.base";
 
     /**
      * 异常类所在包
      */
-    String exceptionPackage = basePackage + ".common.exception";
+    String exceptionPackage = basePackage + ".base.exception";
 
     /**
      * ResponseEntity.java所在包
      */
-    String responsePackage = basePackage + ".common.response";
+    String responsePackage = basePackage + ".base.response";
 
     /**
      * common util.java所在包
      */
-    String commonUtilPackage = basePackage + ".common.util";
+    String commonUtilPackage = basePackage + ".base.util";
 
     /**
      * Po包名
