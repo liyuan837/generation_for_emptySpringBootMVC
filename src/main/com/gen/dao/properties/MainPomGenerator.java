@@ -136,11 +136,12 @@ public class MainPomGenerator {
                 "                <artifactId>commons-beanutils</artifactId>\n" +
                 "                <version>1.6</version>\n" +
                 "            </dependency>\n" +
-                "<dependency>\n" +
-                        "\t\t\t\t<groupId>commons-collections</groupId>\n" +
-                        "\t\t\t\t<artifactId>commons-collections</artifactId>\n" +
-                        "\t\t\t\t<version>3.2.1</version>\n" +
-                        "\t\t\t</dependency>"+
+                "\n" +
+                "            <dependency>\n" +
+                "                <groupId>commons-collections</groupId>\n" +
+                "                <artifactId>commons-collections</artifactId>\n" +
+                "                <version>3.2.1</version>\n" +
+                "            </dependency>\n"+
                 "\n" +
                 "            <dependency>\n" +
                 "                <groupId>org.apache.commons</groupId>\n" +
@@ -180,7 +181,7 @@ public class MainPomGenerator {
                 "                <artifactId>spring-boot-maven-plugin</artifactId>\n" +
                 "                <version>1.3.0.RELEASE</version>\n" +
                 "                <configuration><!-- 指定该Main Class为全局的唯一入口 -->\n" +
-                "                    <mainClass>com.liyuan.kingglory.DemoWebApplication</mainClass>\n" +
+                "                    <mainClass>"+Config.basePackage+"."+Config.webApplicationName+"</mainClass>\n" +
                 "                    <layout>ZIP</layout>\n" +
                 "                </configuration>\n" +
                 "                <executions>\n" +

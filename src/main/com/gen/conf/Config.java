@@ -10,7 +10,7 @@ public interface Config {
     /**
      * 项目名称
      */
-    String projectName = "hello-api";
+    String projectName = "jingjing-api";
 
     /**
      * 数据库名称
@@ -20,7 +20,7 @@ public interface Config {
     /**
      * groupId:
      */
-    String groupId = "com.qianmi";
+    String groupId = "com.liyuan";
 
     /**
      * parentVersion:
@@ -35,28 +35,28 @@ public interface Config {
     /**
      * 项目路径：项目所在磁盘路径
      */
-    String projectPath = "D:/workspace_idea/hello-api/";
+    String projectPath = "D:/workspace_idea/"+projectName+"/";
 
     /**
      * 项目基本包名:groupId + 项目名
      */
-    String basePackage = "com.bm.hello";
+    String basePackage = "com.liyuan.jingjing";
 
     /**
      * 异常类名:项目名 + Exception
      */
-    String exceptionName = "HelloException";
+    String exceptionName = "JingjingException";
 
     /**
      * 生成的接口根uri：所有Controller的访问前缀，不设置或者设成项目名
      */
     //String parentUri = "/king";
-    String parentUri = "";
+    String parentUri = "/jingjing";
 
     /**
      * 所有子模块的名称前缀：一般设成项目名
      */
-    String baseModuleName = "hello";
+    String baseModuleName = "jingjing";
 
     /**
      * common模块名称
@@ -86,7 +86,7 @@ public interface Config {
     /**
      * 入口类类名
      */
-    String webApplicationName = "HelloWebApplication";
+    String webApplicationName = "JingjingWebApplication";
 
     /**
      * 代码路径
@@ -106,22 +106,22 @@ public interface Config {
     /**
      * BaseXXX.java所在包
      */
-    String baseXXXPackage = basePackage + ".base.base";
+    String baseXXXPackage = basePackage + ".common.base";
 
     /**
      * 异常类所在包
      */
-    String exceptionPackage = basePackage + ".base.exception";
+    String exceptionPackage = basePackage + ".common.exception";
 
     /**
      * ResponseEntity.java所在包
      */
-    String responsePackage = basePackage + ".base.response";
+    String responsePackage = basePackage + ".common.response";
 
     /**
      * common util.java所在包
      */
-    String commonUtilPackage = basePackage + ".base.util";
+    String commonUtilPackage = basePackage + ".common.util";
 
     /**
      * Po包名
