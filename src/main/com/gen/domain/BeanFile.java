@@ -153,7 +153,7 @@ public class BeanFile {
             if (beanType == 1 || beanType == 2) {
 
                 String emptyAnnotation = null;
-                String dateUtilImport = Config.basePackage + ".util.DateUtil";
+                String dateUtilImport = Config.basePackage + ".common.util.DateUtil";
                 String DateTimeFormatImport = "org.springframework.format.annotation.DateTimeFormat";
                 if (columnProperties.getClazz().equals("Date")) {
 

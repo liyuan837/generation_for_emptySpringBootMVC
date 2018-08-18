@@ -15,7 +15,7 @@ public interface Config {
     /**
      * 数据库名称
      */
-    String dbName = "king_glory_db";
+    String dbName = "leolderdb";
 
     /**
      * groupId:
@@ -35,7 +35,7 @@ public interface Config {
     /**
      * 项目路径：项目所在磁盘路径
      */
-    String projectPath = "D:/workspace_idea/"+projectName+"/";
+    String projectPath = "E:/"+projectName+"/";
 
     /**
      * 项目基本包名:groupId + 项目名
